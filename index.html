@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jusegar Website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<!-- header start -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Jusegar </a>
+
+    <nav class="navbar">
+        <a href="#beranda">beranda</a>
+        <a href="#keunggulan">keunggulan</a>
+        <a href="#produk">produk</a>
+        <a href="#varian">varian</a>
+        <a href="#ulasan">ulasan</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="foto/jambu.png" alt="">
+            <div class="content">
+                <h3>jus jambu</h3>
+                <span class="price">Rp.12.000</span>
+                <span class="quantity">jumlah : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="foto/alpukat.png" alt="">
+            <div class="content">
+                <h3>jus alpukat</h3>
+                <span class="price">Rp.14.000 </span>
+                <span class="quantity">jumlah : 2</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="foto/lemon.png" alt="">
+            <div class="content">
+                <h3>jus lemon</h3>
+                <span class="price">Rp.14.000</span>
+                <span class="quantity">jumlah : 5</span>
+            </div>
+        </div>
+        <div class="total"> total : Rp.40.000 </div>
+        <a href="checkout.html" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login sekarang</h3>
+        <input type="email" placeholder="Email" class="box">
+        <input type="password" placeholder="Masukan Password" class="box">
+        <p>lupa password? <a href="#">klik disini</a></p>
+        <p>tidak memiliki akun? <a href="#">buat sekarang</a></p>
+        <a href="#" class="btn">Login sekarang</a>
+    </form>
+
+    <form action="" class="search-form">
+        <input type="cari" placeholder="cari disini..." class="box">
+    </form>
+
+</header>
+
+<!-- header end -->
+
+<!-- home start  -->
+
+<section class="beranda" id="beranda">
+
+    <div class="content">
+        <h3>jus segar dan sehat untukmu!</h3>
+        <p>Minuman jus segar akan menjadi pilihan terbaik ketika rasa haus melanda. Apalagi di saat musim terik matahari yang membuat Anda akan mudah merasa haus dan kehilangan cairan dalam tubuh.</p>
+    </div>
+
+</section>
+
+<!-- home end -->
+
+<!-- keunggulan starts  -->
+
+<section class="keunggulan" id="keunggulan">
+
+    <h1 class="heading"><span>keunggulan</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/feature-img-1.png" alt="">
+            <h3>segar dan organik</h3>
+            <p>Untuk membuat jus yang seh....</p>
+            <a href="segar.html" class="btn">baca selengkapnya</a>
+        </div>
+
+        <div class="box">
+            <img src="image/feature-img-2.png" alt="">
+            <h3>pengiriman gratis</h3>
+            <p>Kamu mager? tapi pengen be....</p>
+            <a href="segar.html" class="btn">baca sekarang</a>
+        </div>
+
+        <div class="box">
+            <img src="image/feature-img-3.png" alt="">
+            <h3>pembayaran mudah</h3>
+            <p>untuk pembayaran kami men....</p>
+            <a href="segar.html" class="btn">baca selengkapnya</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- keunggulan ends -->
+
+<!-- produk starts  -->
+
+<section class="produk" id="produk">
+
+    <h1 class="heading"><span>produk</span> </h1>
+
+    <div class="swiper produk-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="foto/jeruk.png" alt="">
+                <h3>jus jeruk</h3>
+                <div class="price"> Rp.10.000 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="foto/jambu.png" alt="">
+                <h3>jus jambu</h3>
+                <div class="price"> Rp.12.000 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="foto/apel.png" alt="">
+                <h3>jus apel</h3>
+                <div class="price"> Rp.12.000 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="foto/alpukat.png" alt="">
+                <h3>jus alpukat</h3>
+                <div class="price"> Rp.14.000 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper produk-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="foto/strawberry.png" alt="">
+                <h3>jus strawberry</h3>
+                <div class="price"> Rp.15.000 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="foto/tomat.png" alt="">
+                <h3>jus tomat</h3>
+                <div class="price"> Rp.11.000 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="foto/wortel.png" alt="">
+                <h3>jus wortel</h3>
+                <div class="price"> Rp.12.000 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="foto/lemon.png" alt="">
+                <h3>jus lemon</h3>
+                <div class="price"> Rp.14.000 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- produk ends -->
+
+<!-- varian starts  -->
+
+<section class="varian" id="varian">
+
+    <h1 class="heading"><span>varian</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="foto/ori.png" alt="">
+            <h3>original juice</h3>
+            <p>Jus orgininal merupakan minuman jus seperti pada umumnya yang terdapat cairan alami dari buah - buahan.</p>
+        </div>
+
+        <div class="box">
+            <img src="foto/smoothies.png" alt="">
+            <h3>smoothies juice</h3>
+            <p>Jus smoothies memiliki tekstur lebih kental karena tetap menyertakan ampas dari buah yang telah dilumatkan.</p>
+        </div>
+
+        <div class="box">
+            <img src="foto/milkjus.png" alt="">
+            <h3>milk juice</h3>
+            <p>Buah campur susu memiliki banyak manfaat bagi kesehatan. Apalagi jika dibuat jus, rasanya enak sekali.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- varian ends -->
+
+<!-- ulasan starts  -->
+
+<section class="ulasan" id="ulasan">
+
+    <h1 class="heading"> apa kata <span>mereka?</span> </h1>
+
+    <div class="swiper ulasan-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="foto/jaemin.jpg" alt="">
+                <p>Rasanya enak dan segar. Cocok diminum saat siang hari ketika cuaca panas. Harga juga sangat bersahabat.</p>
+                <h3>jaemin</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="foto/haechan.jpg" alt="">
+                <p>Worth it banget jus dengan harga segini tapi rasanya ga bikin kecewa. Mantapppp!</p>
+                <h3>haechan</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="foto/mark.jpg" alt="">
+                <p>Baru pertama kali order jus disini, pengantaranya cepet, jus nya juga enak. Bakal jadi langganan deh</p>
+                <h3>Mark</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="foto/chenle.jpg" alt="">
+                <p>rasanya the besttt...besok besok mau aku borong jus nya sekalian sama toko nya juga gapapa deh</p>
+                <h3>chenle</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ulasan ends -->
+
+<!-- footer starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> Jusegar <i class="fas fa-shopping-basket"></i> </h3>
+            <p>Jusegar kini hadir dengan menyajikan jus jus yang enak dan tentunya SEGARRRRR banget lohhhh... </p>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="tel:+6281223456789" class="links"> <i class="fas fa-phone"></i> 0812 2345 6789 </a>
+            <a href="mailto:jusegar@gmail.com?subject=Beli%20Jusegar&body=Saya%20Ingin%20Beli%20Jus%20Jambu" class="links"> <i class="fas fa-envelope"></i> jusegar@gmail.com </a>
+            <a href="maps.html" class="links"> <i class="fas fa-map-marker-alt"></i> Purwokerto, Indonesia </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> beranda </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> keunggulan </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> produk </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> varian </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> ulasan </a>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
